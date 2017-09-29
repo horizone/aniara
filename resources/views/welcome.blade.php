@@ -79,8 +79,8 @@
             </div>
                 <div class="mudbackground" style="width:400px; height:400px; background:black; margin-left:39%; color:white; position: relative;">
                     <div class="mudtext" style="position: absolute; bottom: 0;">
-                        <form action="/showtext">
-                        <input type="text" name="chatinput">
+                        <form action="/submit">
+                        <input type="textarea" name="chatinput">
                             <input type="submit" value="Submit">
                         </form>
                     </div>
