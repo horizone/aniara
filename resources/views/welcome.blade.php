@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Aniara</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -19,6 +19,7 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+
             }
 
             .full-height {
@@ -58,14 +59,10 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -78,12 +75,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">Laravel</div>
-
-                <div class="links">
-                    <p>Links</p>
+                <div class="title m-b-md">Aniara</div>
+            </div>
+                <div class="mudbackground" style="width:400px; height:400px; background:black; margin-left:39%; color:white; position: relative;">
+                    <div class="mudtext" style="position: absolute; bottom: 0;">
+                        <form action="/showtext">
+                        <input type="text" name="chatinput">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+        </body>
+    </html>

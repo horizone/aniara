@@ -26,3 +26,5 @@ Route::get('/forgotpass', 'App\Http\Controllers\Auth\ForgotPasswordController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/showtext', 'InputController@store');
