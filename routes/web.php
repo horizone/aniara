@@ -10,14 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'InputController@index');
+
 Auth::routes();
 
-Route::get('/home', 'App\Http\Controllers\Auth\HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/submit', 'App\Http\Controllers\InputController@store');
-Route::get('/text', 'App\Http\Controllers\InputController@show');
-
-//Route::get('/login', 'App\Http\Controllers\Auth\LoginController');
-//Route::get('/register', 'App\Http\Controllers\Auth\RegisterController');
-//Route::get('/reset', 'App\Http\Controllers\Auth\ResetPasswordController');
-//Route::get('/forgotpass', 'App\Http\Controllers\Auth\ForgotPasswordController');
+//Route::post('/chatinput', 'App\Http\Controllers\InputController@store');
+//Route::post('/chatoutput', 'App\Http\Controllers\InputController@show');

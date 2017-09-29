@@ -34,7 +34,7 @@ class InputController extends Controller
      */
     public function store(Request $request)
     {
-        $input = $request->input('chatinput');
+        //
     }
 
     /**

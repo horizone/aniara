@@ -77,11 +77,12 @@
             <div class="content">
                 <div class="title m-b-md">Aniara</div>
             </div>
-                <div class="mudbackground" style="width:400px; height:400px; background:black; margin-left:39%; color:white; position: relative;">
+                <div class="mudbackground" style="width:600px; height:600px; background:black; margin-left:35%; color:white; position: relative;">
                     <div class="mudtext" style="position: absolute; bottom: 0;">
-                        <form action="/submit">
-                        <input type="textarea" name="chatinput">
-                            <input type="submit" value="Submit">
+                        <form action="" method="post">
+                        <!--<input type="text" name="chatoutput">
+                        <input type="text" name="chatinput">
+                            <input type="submit" value="Submit">-->
                         </form>
                     </div>
                 </div>
